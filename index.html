@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09111f">
+  <meta name="description" content="Suryamani is a computer science undergraduate at BMS Institute of Technology and Management in Bengaluru, learning through programming and web development.">
+  <meta property="og:title" content="Suryamani — Computer Science Undergraduate">
+  <meta property="og:description" content="Computer science undergraduate learning through problem solving and practical web development.">
+  <title>Suryamani — Computer Science Undergraduate</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas class="particle-canvas" id="particle-canvas" aria-hidden="true"></canvas>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home" aria-label="Suryamani home"><span class="brand-mark">S</span><span>Suryamani</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Learning</a><a href="#education">Education</a><a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-content">
+        <p class="eyebrow hero-identity"><span class="blue-dot"></span> COMPUTER SCIENCE UNDERGRADUATE <span class="identity-divider"></span> BMSIT&amp;M</p>
+        <h1>Hi, I’m <span>Suryamani.</span></h1>
+        <p class="hero-role"><span class="role-prefix">Currently focused on</span> <span id="typed-role">problem solving</span><i aria-hidden="true"></i></p>
+        <p class="hero-summary">I’m studying computer science at BMS Institute of Technology and Management. I’m focused on problem solving and learning to build practical web experiences.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">View projects <span>↘</span></a><a class="button button-secondary" href="assets/suryamani-profile.pdf" download aria-label="Download supplied profile PDF">Download profile PDF <span>↓</span></a></div>
+        <div class="hero-meta"><a data-link="linkedin">LinkedIn <span>↗</span></a><a data-email href="mailto:surya577123@gmail.com">Email <span>↗</span></a><span class="location">Bengaluru, Karnataka, India</span></div>
+      </div>
+      <div class="hero-details" aria-label="Profile details"><div><span>DEGREE</span><strong>Bachelor’s in Computer Science</strong></div><div><span>COLLEGE</span><strong>BMS Institute of Technology and Management</strong></div><div><span>EXPECTED GRADUATION</span><strong>September 2029</strong></div></div>
+    </section>
+    <section class="section wrap" id="about">
+      <div class="section-heading"><p class="eyebrow section-label"><span>01</span> ABOUT</p><h2>A bit about me</h2></div>
+      <div class="about-grid"><div class="about-lead"><p>I enjoy learning how a problem can be broken down, understood, and turned into something useful.</p></div><div class="about-copy"><p>At BMS Institute of Technology and Management, I’m building a foundation in computer science and software development. My current focus is data structures and algorithms, C and C++, and the fundamentals of the web.</p><p>I’m also learning how JavaScript, React, and backend tools fit together. I’m early in my development journey, and I want this portfolio to reflect what I’m learning and the work I actually build.</p><div class="about-facts"><div><span>BASED IN</span><strong>Bengaluru, India</strong></div><div><span>STUDYING</span><strong>Computer Science</strong></div></div></div></div>
+    </section>
+    <section class="section section-alt" id="skills"><div class="wrap">
+      <div class="section-heading"><p class="eyebrow section-label"><span>02</span> SKILLS</p><h2>What I’m learning and using</h2><p class="section-intro">A clear view of my current practice areas and the tools I’m exploring.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-index">01</span><span class="skill-stage">PRACTICE FOCUS</span></div><h3>Programming</h3><p>Strengthening core programming and problem-solving fundamentals.</p><ul class="skill-tags"><li>C</li><li>C++</li><li>Data Structures &amp; Algorithms</li></ul></article>
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-index">02</span><span class="skill-stage">WEB FUNDAMENTALS</span></div><h3>Frontend</h3><p>Learning to make clear, responsive interfaces for the browser.</p><ul class="skill-tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li class="tag-learning">React.js · learning</li></ul></article>
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-index">03</span><span class="skill-stage">CURRENTLY LEARNING</span></div><h3>Backend</h3><p>Exploring how servers and APIs support web applications.</p><ul class="skill-tags"><li class="tag-learning">Node.js</li><li class="tag-learning">Express.js</li></ul></article>
+        <article class="skill-card"><div class="skill-card-top"><span class="skill-index">04</span><span class="skill-stage">TOOLS</span></div><h3>Development workflow</h3><p>Tools I use to write, manage, and improve my code.</p><ul class="skill-tags"><li>Git</li><li>GitHub</li><li>VS Code</li></ul></article>
+      </div>
+      <p class="skill-note">Learning labels describe my current focus; they aren’t proficiency ratings.</p>
+    </div></section>
+    <section class="section wrap" id="projects">
+      <div class="section-heading projects-heading"><p class="eyebrow section-label"><span>03</span> PROJECTS</p><h2>Work in progress</h2><p class="section-intro">I’ll add projects here as I build work that’s ready to share.</p></div>
+      <div class="project-list" id="project-list" aria-live="polite"></div>
+    </section>
+    <section class="section section-alt" id="journey"><div class="wrap journey-layout">
+      <div class="section-heading"><p class="eyebrow section-label"><span>04</span> LEARNING</p><h2>Currently exploring</h2><p class="section-intro">The areas I’m spending time on as I grow my software development skills.</p></div>
+      <ul class="learning-list"><li><span>01</span><div><strong>Problem solving</strong><p>Strengthening data structures and algorithms fundamentals.</p></div></li><li><span>02</span><div><strong>JavaScript and React</strong><p>Learning to create interactive, maintainable interfaces.</p></div></li><li><span>03</span><div><strong>Backend development</strong><p>Understanding servers, APIs, and how web applications connect.</p></div></li><li><span>04</span><div><strong>Full-stack development</strong><p>Learning how frontend and backend parts work together.</p></div></li></ul>
+    </div></section>
+    <section class="section wrap" id="education">
+      <div class="section-heading"><p class="eyebrow section-label"><span>05</span> EDUCATION</p><h2>Building my foundation</h2></div>
+      <article class="education-card"><div class="education-main"><h3>BMS Institute of Technology and Management</h3><p>Bachelor’s degree in Computer Science</p><div class="education-meta"><span>September 2025 – September 2029</span><span>Bengaluru, Karnataka, India</span></div></div><span class="education-status"><i></i> UNDERGRADUATE</span></article>
+    </section>
+    <section class="section contact-section" id="contact"><div class="wrap">
+      <div class="section-heading"><p class="eyebrow section-label"><span>06</span> CONTACT</p><h2>Let’s connect</h2><p class="section-intro">Have a question or want to talk about learning and building for the web? Send me a note.</p></div>
+      <div class="contact-layout"><div class="contact-links"><a data-email href="mailto:surya577123@gmail.com"><span>Email</span><strong>surya577123@gmail.com</strong><b>↗</b></a><a data-link="linkedin"><span>LinkedIn</span><strong>Connect with me</strong><b>↗</b></a><a data-link="github" hidden><span>GitHub</span><strong>View profile</strong><b>↗</b></a></div>
+        <form id="contact-form" novalidate><div class="form-row"><label>Your name<input name="name" required minlength="2" autocomplete="name" placeholder="Name"></label><label>Your email<input name="email" required type="email" autocomplete="email" placeholder="you@example.com"></label></div><label>Message<textarea name="message" required minlength="10" rows="4" placeholder="What would you like to talk about?"></textarea></label><div class="form-bottom"><button class="button button-primary" type="submit">Open email draft <span>↗</span></button><p id="form-message" aria-live="polite">This opens your email app. The form doesn’t send or store messages.</p></div></form>
+      </div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="#home"><span class="brand-mark">S</span><span>Suryamani</span></a><p>Computer Science Undergraduate · Bengaluru, India</p><a class="back-top" href="#home">Back to top ↑</a></div></footer>
+  <script src="portfolio-data.js"></script><script src="script.js"></script>
+</body>
+</html>
